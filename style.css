@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(201, 167, 238);
+}
+
+.div1{
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 450px;
+    margin-top: 40px;
+
+}
+.div2{
+    padding: 30px;
+    border: 1px solid white;
+    height: 450px;
+    width: 300px;
+    background-color: lightblue;
+}
+.title{
+    color: black;
+    font-family: Arial;
+    font-weight: bolder;
+    padding-left: 430px;
+}
+.box{
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: medium;
+    width: 100%;
+    height: 50px;
+}
+.num{
+    font-family: Arial;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    color: black;
+    border-style: double;
+    width: 100%;
+    height: 50px;
+}
+.right{
+    font-family: Arial;
+    background-color: white;
+    width: 60px;
+    border-style: double;
+    height: 60px;
+    color: red;
+    font-size: medium;
+    font-weight: bold;
+}
+.operation{
+    font-family: Arial;
+    background-color: white;
+    width: 60px;
+    border-style: double;
+    height: 60px;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.num:active{
+    background: lightgray;
+    box-shadow: inset 0px 0px 50x white;
+}
+.operation:active{
+    background: lightpink;
+    box-shadow: inset 0px 0px 50x white;
+}
+.right:active{
+    background: tomato;
+    box-shadow: inset 0px 0px 50x white;
+}

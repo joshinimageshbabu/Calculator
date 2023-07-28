@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class="title">SIMPLE CALCULATOR</h1>
+        <div class="div1">
+            <table class="div2">
+                <tr>
+                    <td colspan="4"><input class="box" type="text" placeholder="0" id="Result"></td>
+                </tr>
+                <tr>
+                    <td><input class="right" type="button" value="c" onclick="clearResult()"/></td>
+                    <td><input class="operation" type="button" value="del" onclick="deleteLast()"/></td>
+                    <td><input class="operation" type="button" value="%" onclick="percentage()"/></td>
+                    <td><input class="operation" type="button" value="/" onclick="display('/')"/></td>    
+                </tr>
+                <tr>
+                    <td><input class="num" type="button" value="7" onclick="display('7')"/></td>
+                    <td><input class="num" type="button" value="8" onclick="display('8')"/></td>
+                    <td><input class="num" type="button" value="9" onclick="display('9')"/></td>
+                    <td><input class="operation" type="button" value="*" onclick="display('*')"/></td>            
+                </tr>
+                <tr>
+                    <td><input class="num" type="button" value="4" onclick="display('4')"/></td>
+                    <td><input class="num" type="button" value="5" onclick="display('5')"/></td>
+                    <td><input class="num" type="button" value="6" onclick="display('6')"/></td>
+                    <td><input class="operation" type="button" value="-" onclick="display('-')"/></td>           
+                </tr>
+                <tr>
+                    <td><input class="num" type="button" value="1" onclick="display('1')"/></td>
+                    <td><input class="num" type="button" value="2" onclick="display('2')"/></td>
+                    <td><input class="num" type="button" value="3" onclick="display('3')"/></td>
+                    <td><input class="operation" type="button" value="+" onclick="display('+')"/></td>
+                </tr>
+                <tr>
+                    <td><input class="num" type="button" value="00" onclick="display('00')"/></td>
+                    <td><input class="num" type="button" value="0" onclick="display('0')"/></td>
+                    <td><input class="num" type="button" value="." onclick="display('.')"/></td>  
+                    <td><input class="operation" type="button" value="=" onclick="calculate()"/></td>          
+                </tr>
+            </table>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
